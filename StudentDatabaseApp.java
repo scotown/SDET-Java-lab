@@ -19,8 +19,6 @@ public class StudentDatabaseApp {
 		System.out.println("Current Enrollment: " + stud1.showCourses());
 		
 		Student stud2 = new Student("George Harrison", "998887776");
-		stud2.setPhone("011 26262727");
-
 		System.out.println("Student 2: " + stud2.toString());
 		System.out.println("Current Enrollment: " + stud2.showCourses());
 		
